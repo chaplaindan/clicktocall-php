@@ -5,7 +5,7 @@ use Twilio\TwiML\VoiceResponse;
 
 function generate_twiml_response() {
   $response = new VoiceResponse();
-  $response->say('Thanks for contacting our sales department. Our next available representative will take your call');
+  $response->say('Thanks for requesting a call from one of our chaplains. Our next available chaplain will take your call');
   return (string)$response;
 }
 
